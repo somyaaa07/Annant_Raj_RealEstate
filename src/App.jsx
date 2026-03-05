@@ -1,20 +1,23 @@
 import React from 'react'
-import './App.css'
-import HomeSection from './page/Home'
-import { BrowserRouter as Router , Routes , Route } from 'react-router-dom'
-function App() {
+import { BrowserRouter as Router , Routes ,Route } from 'react-router-dom'
+import M3MNavbar from './common-component/Navbar'
+import Home from './page/Home1'
 
+function App(){
+return(
 
-  return (
+  <Router>
+    <Routes>
+      <Route path="/" element={
+        <div>
+   
+        <Home/>
+        </div>
+      }/>
+    </Routes>
+  </Router>
+)
 
-<Router>
-  <Routes>
-    <Route path="/" element={
-      <HomeSection/>
-    }/>
-  </Routes>
-</Router>
-  )
 }
 
 export default App
