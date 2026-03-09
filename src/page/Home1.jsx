@@ -1659,8 +1659,9 @@ export default function App() {
           <QuoteBanner />
           <GallerySection onEnquire={() => setModal(true)} />
           <AmenitiesSection />
-          <PremiumFeaturesSection />
+          
           <PriceListSection onEnquire={() => setModal(true)} />
+            <PremiumFeaturesSection />
           <LocationSection />
           <ContactSection onEnquire={() => setModal(true)} />
         </div>
