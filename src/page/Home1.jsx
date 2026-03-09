@@ -1467,7 +1467,7 @@ function Sidebar() {
 function Footer() {
   const bp = useBreakpoint();
   const links = {
-    "Project": ["Overview", "Floor Plans", "Price List", "Gallery", "Amenities"],
+    "Project": ["Overview", "Price List", "Gallery", "Amenities"],
     "Company": ["About Anant Raj Limited", "Careers", "Press", "Blog"],
     "Legal": ["Privacy Policy", "Terms", "RERA Info"],
   };
